@@ -5,14 +5,26 @@ import React from "react";
 // }
 
 //Named export
+// export const Greet = ({name,company}) => {
+//   //console.log(props);
+//   return (
+//     <div>
+//       <h1>
+//         Hello {name} = {company}
+//       </h1>
+//       {/* {props.children} */}
+//     </div>
+//   );
+// };
 export const Greet = (props) => {
-  console.log(props);
+  //console.log(props);
+  const { name, company } = props;
   return (
     <div>
       <h1>
-        Hello {props.name} = {props.company}
+        Hello {name} = {company}
       </h1>
-      {props.children}
+      {/* {props.children} */}
     </div>
   );
 };
