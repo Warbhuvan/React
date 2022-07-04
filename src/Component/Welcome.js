@@ -3,9 +3,10 @@ import { Component } from "react";
 
 class Welcome extends Component {
   render() {
+    const { name, company } = this.props;
     return (
       <h2>
-        Welcome {this.props.name} to {this.props.company}
+        Welcome {name} to {company}
       </h2>
     );
   }
