@@ -1,18 +1,19 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Greet } from "./Component/Greet";
-import Welcome from "./Component/Welcome";
-import Hello from "./Component/Hello";
-function App() {
+import React from "react";
+// function Greet()
+// {
+//     return <h1>Hello Sheetal</h1>
+// }
+
+//Named export
+export const Greet = (props) => {
+  console.log(props);
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <Greet></Greet> */}
-        <Hello />
-        <Welcome />
-      </header>
+    <div>
+      <h1>
+        Hello {props.name} = {props.company}
+      </h1>
+      {props.children}
     </div>
   );
-}
-
-export default App;
+};
+// export default Greet
