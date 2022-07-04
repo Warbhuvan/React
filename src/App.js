@@ -5,6 +5,8 @@ import Welcome from "./Component/Welcome";
 // import Hello from "./Component/Hello";
 import Message from "./Component/Message";
 import Counter from "./Component/Counter";
+import FunctionClick from "./Component/FunctionClick";
+import FunctionClickForClass from "./Component/FunctionClickForClass";
 function App() {
   return (
     <div className="App">
@@ -20,9 +22,11 @@ function App() {
         {/* <Welcome name="Sheetal" company="Vyoms"></Welcome> */}
         {/* <Greet name="Sheetal" company="Vyoms">
         </Greet> */}
-        <Welcome name="Sheetal" company="Vyoms"></Welcome>
+        {/* <Welcome name="Sheetal" company="Vyoms"></Welcome>
         <Message></Message>
-        <Counter></Counter>
+        <Counter></Counter> */}
+        <FunctionClick></FunctionClick>
+        <FunctionClickForClass></FunctionClickForClass>
       </header>
     </div>
   );
