@@ -7,6 +7,7 @@ import Message from "./Component/Message";
 import Counter from "./Component/Counter";
 import FunctionClick from "./Component/FunctionClick";
 import FunctionClickForClass from "./Component/FunctionClickForClass";
+import EventBinding from "./Component/EventBinding";
 function App() {
   return (
     <div className="App">
@@ -25,8 +26,9 @@ function App() {
         {/* <Welcome name="Sheetal" company="Vyoms"></Welcome>
         <Message></Message>
         <Counter></Counter> */}
-        <FunctionClick></FunctionClick>
-        <FunctionClickForClass></FunctionClickForClass>
+        {/* <FunctionClick></FunctionClick>
+        <FunctionClickForClass></FunctionClickForClass> */}
+        <EventBinding></EventBinding>
       </header>
     </div>
   );
