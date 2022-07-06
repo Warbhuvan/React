@@ -11,6 +11,7 @@ import EventBinding from "./Component/EventBinding";
 import ParenComponent from "./Component/ParenComponent";
 import UserGreeting from "./Component/UserGreeting";
 import NameList from "./Component/NameList";
+import Form from "./Component/Form";
 function App() {
   return (
     <div className="App">
@@ -35,6 +36,7 @@ function App() {
         <ParenComponent /> */}
         <UserGreeting></UserGreeting>
         <NameList></NameList>
+        <Form></Form>
       </header>
     </div>
   );
