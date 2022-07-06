@@ -10,6 +10,7 @@ import FunctionClickForClass from "./Component/FunctionClickForClass";
 import EventBinding from "./Component/EventBinding";
 import ParenComponent from "./Component/ParenComponent";
 import UserGreeting from "./Component/UserGreeting";
+import NameList from "./Component/NameList";
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,7 @@ function App() {
         {/* <EventBinding></EventBinding>
         <ParenComponent /> */}
         <UserGreeting></UserGreeting>
+        <NameList></NameList>
       </header>
     </div>
   );
