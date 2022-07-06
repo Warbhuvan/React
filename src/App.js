@@ -9,6 +9,7 @@ import FunctionClick from "./Component/FunctionClick";
 import FunctionClickForClass from "./Component/FunctionClickForClass";
 import EventBinding from "./Component/EventBinding";
 import ParenComponent from "./Component/ParenComponent";
+import UserGreeting from "./Component/UserGreeting";
 function App() {
   return (
     <div className="App">
@@ -29,8 +30,9 @@ function App() {
         <Counter></Counter> */}
         {/* <FunctionClick></FunctionClick>
         <FunctionClickForClass></FunctionClickForClass> */}
-        <EventBinding></EventBinding>
-        <ParenComponent />
+        {/* <EventBinding></EventBinding>
+        <ParenComponent /> */}
+        <UserGreeting></UserGreeting>
       </header>
     </div>
   );
