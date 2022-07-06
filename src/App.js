@@ -12,6 +12,7 @@ import ParenComponent from "./Component/ParenComponent";
 import UserGreeting from "./Component/UserGreeting";
 import NameList from "./Component/NameList";
 import Form from "./Component/Form";
+import LifeCycleA from "./Component/LifeCycleA";
 function App() {
   return (
     <div className="App">
@@ -34,9 +35,10 @@ function App() {
         <FunctionClickForClass></FunctionClickForClass> */}
         {/* <EventBinding></EventBinding>
         <ParenComponent /> */}
-        <UserGreeting></UserGreeting>
+        {/* <UserGreeting></UserGreeting>
         <NameList></NameList>
-        <Form></Form>
+        <Form></Form> */}
+        <LifeCycleA></LifeCycleA>
       </header>
     </div>
   );
