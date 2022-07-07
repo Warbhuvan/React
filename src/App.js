@@ -16,6 +16,9 @@ import LifeCycleA from "./Component/LifeCycleA";
 import FragmentDemo from "./Component/Fragment";
 import PureComp from "./Component/PureComp";
 import Parent from "./Component/Parent";
+import RefsDemo from "./Component/RefsDemo";
+import FocusInput from "./Component/FocusInput";
+import FRParentInput from "./Component/FRParentInput";
 function App() {
   return (
     <div className="App">
@@ -42,9 +45,12 @@ function App() {
         <NameList></NameList>
         <Form></Form> */}
         {/* <LifeCycleA></LifeCycleA> */}
-        <FragmentDemo></FragmentDemo>
+        {/* <FragmentDemo></FragmentDemo> */}
         {/* <PureComp></PureComp> */}
-        <Parent></Parent>
+        {/* <Parent></Parent> */}
+        {/* <RefsDemo></RefsDemo> */}
+        {/* <FocusInput></FocusInput> */}
+        <FRParentInput></FRParentInput>
       </header>
     </div>
   );
