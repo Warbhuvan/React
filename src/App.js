@@ -13,6 +13,9 @@ import UserGreeting from "./Component/UserGreeting";
 import NameList from "./Component/NameList";
 import Form from "./Component/Form";
 import LifeCycleA from "./Component/LifeCycleA";
+import FragmentDemo from "./Component/Fragment";
+import PureComp from "./Component/PureComp";
+import Parent from "./Component/Parent";
 function App() {
   return (
     <div className="App">
@@ -38,7 +41,10 @@ function App() {
         {/* <UserGreeting></UserGreeting>
         <NameList></NameList>
         <Form></Form> */}
-        <LifeCycleA></LifeCycleA>
+        {/* <LifeCycleA></LifeCycleA> */}
+        <FragmentDemo></FragmentDemo>
+        {/* <PureComp></PureComp> */}
+        <Parent></Parent>
       </header>
     </div>
   );
