@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MemoComp from './MemoComp'
 import PureComp from './PureComp'
 import RegularComp from './RegularComp'
 
@@ -23,8 +24,9 @@ import RegularComp from './RegularComp'
       console.log("**************************Parent component renders********************")
     return (
       <div>Parent
-          <RegularComp name={this.state.name}></RegularComp>
-          <PureComp name={this.state.name}></PureComp>
+          {/* <RegularComp name={this.state.name}></RegularComp>
+          <PureComp name={this.state.name}></PureComp> */}
+          <MemoComp name={this.state.name}></MemoComp>
       </div>
     )
   }
