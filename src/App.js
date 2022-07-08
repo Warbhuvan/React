@@ -19,6 +19,9 @@ import Parent from "./Component/Parent";
 import RefsDemo from "./Component/RefsDemo";
 import FocusInput from "./Component/FocusInput";
 import FRParentInput from "./Component/FRParentInput";
+import ClickCounter from "./Component/ClickCounter";
+import HoverCounter from "./Component/HoverCounter";
+
 function App() {
   return (
     <div className="App">
@@ -50,7 +53,9 @@ function App() {
         {/* <Parent></Parent> */}
         {/* <RefsDemo></RefsDemo> */}
         {/* <FocusInput></FocusInput> */}
-        <FRParentInput></FRParentInput>
+        {/* <FRParentInput></FRParentInput> */}
+        <ClickCounter name="Sheetal"></ClickCounter>
+        <HoverCounter name="Suraj"></HoverCounter>
       </header>
     </div>
   );
