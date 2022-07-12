@@ -19,6 +19,9 @@ import ComponentA from "./Component/ComponentA";
 import ComponentB from "./Component/ComponentB";
 import ComponentLast from "./Component/ComponentLast";
 import DataFetchingUseReduceHook from "./Component/DataFetchingUseReduceHook";
+import FocusInput from "./Component/FocusInput";
+import ClassTimer from "./Component/ClassTimer";
+import HookTimer from "./Component/HookTimer";
 
 
 export const UserContext = React.createContext();
@@ -66,7 +69,10 @@ function App() {
           <ComponentA></ComponentA>
           <ComponentB></ComponentB>
           <ComponentLast></ComponentLast> */}
-          <DataFetchingUseReduceHook></DataFetchingUseReduceHook>
+          {/* <DataFetchingUseReduceHook></DataFetchingUseReduceHook> */}
+          <FocusInput></FocusInput>
+          <ClassTimer></ClassTimer>
+          <HookTimer></HookTimer>
         </CountContext.Provider>
        
       </header>
